@@ -17,7 +17,7 @@ public class Slide24e25 {
 		boolean falsidade = !(true);	// inverte o valor booleano
 		
 		double d = 1.99;
-		int i = (int) d;	// converte de double p/ int (perda de precisão)
+		int ii = (int) d;	// converte de double p/ int (perda de precisão)
 		
 		int um = 3/2;					// divisão de inteiros gera um inteiro
 		float umEmeio = (float)3/2;		// ocorre promoção aritmética para float
@@ -26,12 +26,12 @@ public class Slide24e25 {
 		int resto = 7%2;				// resto = 1
 		
 		long l = 1000+4000;
-		double d = 1.0-0.01;
+		double dd = 1.0-0.01;
 		
 		long var = 12345;
 		String str = "O valor de var é "+var;
 		
-		String str = "O valor de var é "+Long.toString(var);
+		String strr = "O valor de var é "+Long.toString(var);
 
 	}
 
